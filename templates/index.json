@@ -81,88 +81,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
-      }
-    },
-    "multi-column": {
-      "type": "multi-column",
-      "blocks": {
-        "column-1": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "column-2": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "column-3": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-1",
-        "column-2",
-        "column-3"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": false,
-        "content_alignment": "start",
-        "text_alignment": "start",
-        "spacing": "md",
-        "subheading": "About",
-        "title": "Multi-column",
-        "content": ""
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -170,7 +88,7 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "",
+            "collection": "frontpage",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -186,7 +104,8 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "",
+            "collection": "confectionery",
+            "image": "shopify://shop_images/Confectionery_540x_33aa8ecd-a985-4f4c-abee-eb23291308e7.webp",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -202,7 +121,7 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "",
+            "collection": "ghraoui-signatures",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -218,39 +137,7 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-5": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-6": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
+            "collection": "inspired-by-budapest",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -267,9 +154,7 @@
         "collection-1",
         "collection-2",
         "collection-3",
-        "collection-4",
-        "collection-5",
-        "collection-6"
+        "collection-4"
       ],
       "settings": {
         "color_scheme": "",
@@ -279,50 +164,10 @@
         "space_items": true,
         "stack_collections": true,
         "collections_per_row_mobile": "1",
-        "collections_per_row_desktop": 3,
+        "collections_per_row_desktop": 2,
         "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
-    "before-after": {
-      "type": "before-after",
-      "blocks": {
-        "before": {
-          "type": "before",
-          "settings": {
-            "color_scheme": "",
-            "text": "Before",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        },
-        "after": {
-          "type": "after",
-          "settings": {
-            "color_scheme": "",
-            "text": "After",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "before",
-        "after"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "cursor_direction": "horizontal",
-        "cursor_initial_position": 50,
-        "cursor_background": "#ffffff",
-        "cursor_arrows_color": "#000000"
+        "title": "The Collections",
+        "content": "<p>Marrying European chocolate tradition with the fragrant flavours of Damascene fruits and nuts, Ghraoui creates exquisite chocolates and confectionery, as rich in taste as in story: heartwarming delicacies that are made to give.</p>"
       }
     },
     "image-with-text-scroll": {
@@ -418,54 +263,6 @@
         "button_2_style": "solid"
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.</p>",
-        "button_text": "Subscribe",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look-1": {
-          "type": "look",
-          "settings": {
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look-1"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Shop the look",
-        "content": "",
-        "popover_title": "Shop the look"
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
@@ -488,14 +285,9 @@
   },
   "order": [
     "slideshow",
-    "featured-collections",
-    "multi-column",
     "collection-list",
-    "before-after",
     "image-with-text-scroll",
     "multiple-media-with-text",
-    "newsletter",
-    "shop-the-look",
     "blog-posts"
   ]
 }
