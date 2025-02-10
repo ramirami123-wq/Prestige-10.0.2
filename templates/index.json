@@ -81,6 +81,58 @@
         "controls_color": "#ffffff"
       }
     },
+    "logo_list_BfYCBN": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_j8TVkN": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/eco_360x_42f7e8d6-3c14-4419-ac1f-a856128d573a.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_fy8LjL": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/5ef0851a79b5307a5f3dc780_the-new-york-times-logo.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_kzJY78": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/images.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_iDDaA9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/images_1.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_j8TVkN",
+        "logo_fy8LjL",
+        "logo_kzJY78",
+        "logo_iDDaA9"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Logo list",
+        "items_per_row": 5,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -217,6 +269,7 @@
   },
   "order": [
     "slideshow",
+    "logo_list_BfYCBN",
     "collection-list",
     "multiple-media-with-text"
   ]
