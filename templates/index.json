@@ -265,12 +265,42 @@
         "button_2_link": "",
         "button_2_style": "solid"
       }
+    },
+    "scrolling_content_4JEMYb": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_RymND8": {
+          "type": "text",
+          "settings": {
+            "text": "Ghraoui Chocolate"
+          }
+        }
+      },
+      "block_order": [
+        "text_RymND8"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "logo_list_BfYCBN",
     "collection-list",
+    "scrolling_content_4JEMYb",
     "multiple-media-with-text"
   ]
 }
