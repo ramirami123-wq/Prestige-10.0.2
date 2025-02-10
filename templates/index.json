@@ -88,20 +88,22 @@
           "type": "item",
           "settings": {
             "icon": "picto-delivery-truck",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "custom_icon": "shopify://shop_images/5ef0851a79b5307a5f3dc780_the-new-york-times-logo.webp",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "",
+            "content": ""
           }
         },
         "item_gFhm8M": {
           "type": "item",
           "settings": {
             "icon": "picto-customer-support",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+            "custom_icon": "shopify://shop_images/images.png",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "",
+            "content": ""
           }
         },
         "item_zDJgMt": {
