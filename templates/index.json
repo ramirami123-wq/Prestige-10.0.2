@@ -81,56 +81,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "text_with_icons_PYmBA4": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_fYcfp6": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-delivery-truck",
-            "custom_icon": "shopify://shop_images/5ef0851a79b5307a5f3dc780_the-new-york-times-logo.webp",
-            "icon_width": 64,
-            "mobile_icon_width": 64,
-            "title": "",
-            "content": ""
-          }
-        },
-        "item_gFhm8M": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-customer-support",
-            "custom_icon": "shopify://shop_images/images.png",
-            "icon_width": 64,
-            "mobile_icon_width": 64,
-            "title": "",
-            "content": ""
-          }
-        },
-        "item_zDJgMt": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-shield",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_fYcfp6",
-        "item_gFhm8M",
-        "item_zDJgMt"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "stack_on_mobile": false,
-        "icon_color": "",
-        "text_color": "",
-        "text_alignment": "center"
-      }
-    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -538,7 +488,6 @@
   },
   "order": [
     "slideshow",
-    "text_with_icons_PYmBA4",
     "featured-collections",
     "multi-column",
     "collection-list",
