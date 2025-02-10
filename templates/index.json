@@ -170,69 +170,20 @@
         "content": "<p>Marrying European chocolate tradition with the fragrant flavours of Damascene fruits and nuts, Ghraoui creates exquisite chocolates and confectionery, as rich in taste as in story: heartwarming delicacies that are made to give.</p>"
       }
     },
-    "image-with-text-scroll": {
-      "type": "images-with-text-scroll",
-      "blocks": {
-        "item-1": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#1",
-            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "item-2": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "item-3": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "image_position": "start",
-        "text_alignment": "center",
-        "heading_tag": "h3",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "multiple-media-with-text": {
       "type": "multiple-media-with-text",
       "blocks": {
         "image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_7-2-2025_163617_www.instagram.com.jpg",
             "rotation": 0
           }
         },
         "image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_7-2-2025_164329_www.instagram.com.jpg",
             "rotation": 0
           }
         }
@@ -252,9 +203,9 @@
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
-        "subheading": "About",
-        "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.</p>",
+        "subheading": "Chocolate is the answer.",
+        "title": "Who cares what the question is?",
+        "content": "",
         "button_1_text": "",
         "button_1_link": "",
         "button_1_style": "solid",
@@ -262,32 +213,11 @@
         "button_2_link": "",
         "button_2_style": "solid"
       }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "blog": "",
-        "posts_count": 3,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_date": false,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "subheading": "",
-        "title": "Blog posts",
-        "content": "",
-        "button_link": "",
-        "button_text": "View all"
-      }
     }
   },
   "order": [
     "slideshow",
     "collection-list",
-    "image-with-text-scroll",
-    "multiple-media-with-text",
-    "blog-posts"
+    "multiple-media-with-text"
   ]
 }
