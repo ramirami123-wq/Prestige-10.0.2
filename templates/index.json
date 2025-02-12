@@ -222,6 +222,35 @@
         "content": "<p>Marrying European chocolate tradition with the fragrant flavours of Damascene fruits and nuts, Ghraoui creates exquisite chocolates and confectionery, as rich in taste as in story: heartwarming delicacies that are made to give.</p>"
       }
     },
+    "scrolling_content_4JEMYb": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_RymND8": {
+          "type": "text",
+          "settings": {
+            "text": "Ghraoui Chocolate"
+          }
+        }
+      },
+      "block_order": [
+        "text_RymND8"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
+    },
     "multiple-media-with-text": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -266,33 +295,33 @@
         "button_2_style": "solid"
       }
     },
-    "scrolling_content_4JEMYb": {
-      "type": "scrolling-content",
+    "featured_collections_9bqWKH": {
+      "type": "featured-collections",
       "blocks": {
-        "text_RymND8": {
-          "type": "text",
+        "collection_4hYf9X": {
+          "type": "collection",
           "settings": {
-            "text": "Ghraoui Chocolate"
+            "collection": "",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "text_RymND8"
+        "collection_4hYf9X"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": true,
-        "scrolling_speed": 0.3,
-        "scroll_direction": "left",
-        "pause_on_hover": false,
-        "text_font": "heading",
-        "text_font_size_mobile": 40,
-        "text_font_size_desktop": 96,
-        "section_vertical_spacing_mobile": 60,
-        "section_vertical_spacing_desktop": 80,
-        "item_horizontal_spacing_mobile": 80,
-        "item_horizontal_spacing_desktop": 120,
-        "background": "",
-        "text_color": ""
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Most Gifted"
       }
     }
   },
@@ -301,6 +330,7 @@
     "logo_list_BfYCBN",
     "collection-list",
     "scrolling_content_4JEMYb",
-    "multiple-media-with-text"
+    "multiple-media-with-text",
+    "featured_collections_9bqWKH"
   ]
 }
